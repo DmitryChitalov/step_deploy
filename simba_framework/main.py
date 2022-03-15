@@ -1,7 +1,7 @@
 from quopri import decodestring
 
 
-from simba_framework.framework_requests import GetRequestClass
+from framework_requests import GetRequestClass
 
 
 class PageNotFound404:
