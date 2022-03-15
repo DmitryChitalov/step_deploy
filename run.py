@@ -17,6 +17,6 @@ app_static = StaticMiddleware(application,
                               static_dirs=STATIC_DIRS)
 
 
-with make_server('stepeight.herokuapp.com', 5000, app_static) as httpd:
-    print("Запуск на порту 8080...")
-    httpd.serve_forever()
+#with make_server('stepeight.herokuapp.com', 5000, app_static) as httpd:
+    #print("Запуск на порту 8080...")
+    #httpd.serve_forever()
